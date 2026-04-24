@@ -25,7 +25,6 @@ public class MouseLook : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(look.action.ReadValue<Vector2>());
         Vector2 input = look.action.ReadValue<Vector2>();
 
         float mouseX = input.x * sensibilidad * Time.deltaTime;

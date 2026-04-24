@@ -5,7 +5,7 @@ public class ScriptMovement : MonoBehaviour
 {
     [SerializeField] float speed = 8f;
     [SerializeField] float gravity = -9.81f;
-    [SerializeField] InputActionReference move; // ← usamos el asset
+    [SerializeField] InputActionReference move;
 
     CharacterController characterController;
     Vector3 velocity;
@@ -42,4 +42,5 @@ public class ScriptMovement : MonoBehaviour
 
         characterController.Move(finalMove * Time.deltaTime);
     }
+    
 }
