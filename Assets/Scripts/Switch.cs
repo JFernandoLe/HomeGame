@@ -33,7 +33,7 @@ public class Switch : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player") || inside) return;
-
+        Debug.Log("Entro");
         inside = true;
         ShowMessage();
     }

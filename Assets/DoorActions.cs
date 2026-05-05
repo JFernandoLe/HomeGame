@@ -4,29 +4,59 @@ using UnityEngine.InputSystem;
 public class DoorActions : MonoBehaviour
 {
     private Animator animator;
-    [SerializeField] private InputAction action;
-    bool state=false;
+    private AudioSource audioSource;
+
+    [SerializeField] private InputActionReference action;
+    [SerializeField] private AudioClip openSound;
+    [SerializeField] private AudioClip closeSound;
+
+    private bool state = false;
+    private bool playerInside = false;
+
     private void OnEnable()
     {
-        if(animator==null) animator = GetComponent<Animator>();
-        if(action!=null) action.Enable();
-        
+        if (animator == null)
+            animator = GetComponent<Animator>();
+
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
+
+        if (action != null)
+            action.action.Enable();
     }
 
     private void OnDisable()
     {
-        if(action!=null) action.Disable();
+        if (action != null)
+            action.action.Disable();
     }
 
-    private void OnTriggerStay(Collider other)
+    private void Update()
     {
-        if (animator != null)
+        if (playerInside && action != null && action.action.WasPressedThisFrame())
         {
-            if(action.WasPressedThisFrame())
+            state = !state;
+            animator.SetBool("isActive", state);
+
+            //  sonido correcto
+            if (audioSource != null)
             {
-                state = !state;
-                animator.SetBool("isActive", state);
+                audioSource.PlayOneShot(state ? openSound : closeSound);
             }
+
+            Debug.Log("Cambiando estado de la puerta");
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+            playerInside = true;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+            playerInside = false;
     }
 }

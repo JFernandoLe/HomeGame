@@ -3,7 +3,23 @@
   "WorkspaceRootPath": "C:\\MetaProjects\\HomeGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|c:\\metaprojects\\homegame\\assets\\scripts\\elevador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|C:\\MetaProjects\\HomeGame\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|c:\\metaprojects\\homegame\\assets\\scripts\\switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|C:\\MetaProjects\\HomeGame\\assets\\scripts\\scriptmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|C:\\MetaProjects\\HomeGame\\assets\\dooractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|solutionrelative:assets\\dooractions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|C:\\MetaProjects\\HomeGame\\assets\\scripts\\elevador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\elevador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,20 +27,8 @@
       "RelativeMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gestorvida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|C:\\MetaProjects\\HomeGame\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|C:\\MetaProjects\\HomeGame\\assets\\scripts\\scriptmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|C:\\MetaProjects\\HomeGame\\assets\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|c:\\metaprojects\\homegame\\assets\\scripts\\switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D57017AA-1838-2A41-2CE0-B0E058EFB743}|Assembly-CSharp.csproj|C:\\MetaProjects\\HomeGame\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,24 +42,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "DoorActions.cs",
+              "DocumentMoniker": "C:\\MetaProjects\\HomeGame\\Assets\\DoorActions.cs",
+              "RelativeDocumentMoniker": "Assets\\DoorActions.cs",
+              "ToolTip": "C:\\MetaProjects\\HomeGame\\Assets\\DoorActions.cs",
+              "RelativeToolTip": "Assets\\DoorActions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T21:55:06.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Elevador.cs",
               "DocumentMoniker": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\Elevador.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Elevador.cs",
               "ToolTip": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\Elevador.cs",
               "RelativeToolTip": "Assets\\Scripts\\Elevador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T03:02:29.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T03:02:29.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GestorVida.cs",
               "DocumentMoniker": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\GestorVida.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GestorVida.cs",
@@ -63,70 +78,68 @@
               "RelativeToolTip": "Assets\\Scripts\\GestorVida.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T01:58:45.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T01:58:45.26Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MouseLook.cs",
               "DocumentMoniker": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\MouseLook.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MouseLook.cs",
               "ToolTip": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\MouseLook.cs",
               "RelativeToolTip": "Assets\\Scripts\\MouseLook.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T01:43:13.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T01:43:13.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ScriptMovement.cs",
               "DocumentMoniker": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\ScriptMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptMovement.cs",
               "ToolTip": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\ScriptMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScriptMovement.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T01:43:04.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Switch.cs",
               "DocumentMoniker": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\Switch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Switch.cs",
               "ToolTip": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\Switch.cs",
               "RelativeToolTip": "Assets\\Scripts\\Switch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T01:25:36.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T01:29:50.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
               "ToolTip": "C:\\MetaProjects\\HomeGame\\Assets\\Scripts\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T01:25:08.843Z"
             }

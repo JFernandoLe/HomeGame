@@ -3,7 +3,16 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public int life = 10;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private CharacterController cc;
+    private ScriptMovement movement;
+
+    private void Awake()
+    {
+        cc = GetComponent<CharacterController>();
+        movement = GetComponent<ScriptMovement>();
+    }
+
     public void TakeDamage(int damage)
     {
         if (life > 0)
@@ -12,12 +21,20 @@ public class Player : MonoBehaviour
         }
         Debug.Log("Vida actual: " + life);
     }
+
     public void Teleport(Vector3 destino)
     {
-        CharacterController cc = GetComponent<CharacterController>();
-
         cc.enabled = false;
-        transform.position = destino;
+
+        //  colocar los pies en el suelo (no el centro)
+        transform.position = destino - new Vector3(0, cc.height / 2f, 0);
+
         cc.enabled = true;
+
+        //  resetear velocidad vertical
+        if (movement != null)
+        {
+            movement.ResetVelocity();
+        }
     }
 }

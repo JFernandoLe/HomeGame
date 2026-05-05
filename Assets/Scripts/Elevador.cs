@@ -2,33 +2,29 @@ using UnityEngine;
 
 public class Elevador : MonoBehaviour
 {
-    [SerializeField] Vector3 posicion;
-    bool inside = false;
+    [SerializeField] Transform puntoDestino;
+    [SerializeField] float cooldown = 1f;
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (!other.CompareTag("Player") || inside) return;
+    float lastTeleportTime = -999f;
 
-        inside = true;
-
-        Player player = other.GetComponent<Player>();
-
-        if (player != null)
-        {
-            teleport(player);
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (!other.CompareTag("Player")) return;
 
-        inside = false;
+        //  evitar spam y bug de "me quedo dentro"
+        if (Time.time < lastTeleportTime + cooldown) return;
+
+        Player player = other.GetComponent<Player>();
+        if (player != null)
+        {
+            teleport(player);
+            lastTeleportTime = Time.time;
+        }
     }
 
-    public void teleport(Player player)
+    void teleport(Player player)
     {
         Debug.Log("teleporting");
-        player.Teleport(posicion);
+        player.Teleport(puntoDestino.position);
     }
 }
