@@ -1,0 +1,2 @@
+/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt
+/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt

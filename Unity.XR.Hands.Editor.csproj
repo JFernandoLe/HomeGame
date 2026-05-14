@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+    <ResolveNuGetPackages>false</ResolveNuGetPackages>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{afcd5706-2855-326b-ea72-3ede270e6171}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Unity.XR.Hands.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Unity.XR.Hands.Editor\</OutputPath>
+    <DefineConstants>UNITY_6000_3_11;UNITY_6000_3;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;UNITY_6000_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_AUDIO_SCRIPTABLE_PIPELINE;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_ACCESSIBILITY_SCREEN_READER;ENABLE_ACCESSIBILITY_SETTINGS;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS;ENABLE_FIREBASE_IDENTIFIERS;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;PLATFORM_EXTENDS_VULKAN_PIPELINE_CACHE;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;PLATFORM_HAS_ADDITIONAL_API_CHECKS;PLATFORM_HAS_GRAPHICS_JOBS_SUPPORT_CHECK_OVERRIDE;PLATFORM_IMPLEMENTS_INSIGHTS_ANR;PLATFORM_SUPPORTS_INSIGHTS_DEVICE_INFO;ENABLE_ANDROID_ADVERTISING_IDS;PLATFORM_HAS_BUGGY_MSAA_RESOLVE;ENABLE_ANDROID_APP_SET_ID;ENABLE_INSIGHTS_PLATFORM_SPECIFIC_RESOURCES;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;TEXTCORE_FONT_ENGINE_1_6_OR_NEWER;OVR_DISABLE_HAND_PINCH_BUTTON_MAPPING;UNITY_OPENXR_PACKAGE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/BaseXRHandsEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/Capture/IDeviceFileService.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/OpenXR/ModifyAndroidManifest.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/XRHandTrackingEventsEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/Capture/GameObjectExtensions.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/XRHandSkeletonDriverEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/Capture/XRHandCaptureEditorWindow.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/ProjectValidation/ProjectValidationUtility.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/Capture/EditorUIUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/Capture/XRHandCaptureEditor.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/Capture/VisualizationUtils.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/ProjectValidation/AssemblyInfo.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/Capture/XRHandCapturePlayback.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/Capture/AndroidDeviceFileService.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/Capture/XRHandCaptureImporter.cs" />
+    <Compile Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/Gestures/XRHandShapeEditor.cs" />
+    <None Include="Library/PackageCache/com.unity.xr.hands@3e241be20642/Editor/Unity.XR.Hands.Editor.asmdef" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AMDModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AMDModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AdaptivePerformanceModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AdaptivePerformanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.HierarchyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.HierarchyCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IdentifiersModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.IdentifiersModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.InputForUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InsightsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.InsightsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.MarshallingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.MultiplayerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsBackendPhysXModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.PhysicsBackendPhysXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.PropertiesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RenderAs2DModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.RenderAs2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderRuntimeModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ShaderRuntimeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConsentModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityConsentModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VectorGraphicsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.VectorGraphicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.AccessibilityModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.AdaptivePerformanceModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.AssetComplianceModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.AssetComplianceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.BuildProfileModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.BuildProfileModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.ClothModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreBusinessMetricsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EmbreeModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.EmbreeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GIModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphicsStateCollectionSerializerModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GridAndSnapModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GridAndSnapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GridModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HierarchyModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.HierarchyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.MediaModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.MediaModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.MultiplayerModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.MultiplayerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Physics2DModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PlayModeModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.PlayModeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PropertiesModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.PropertiesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.QuickInstallModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.QuickInstallModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SafeModeModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SafeModeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SceneViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderBuildSettingsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.ShaderBuildSettingsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderCompilationModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.ShaderCompilationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderFoundryModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.ShaderFoundryModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SketchUpModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SketchUpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteMaskModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteShapeModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SubstanceModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TerrainModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextRenderingModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TilemapModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.TreeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomationModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UIAutomationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIToolkitAuthoringModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UIToolkitAuthoringModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UmbraModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VFXModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VectorGraphicsModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.VectorGraphicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VideoModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XRModule">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEditor.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.ext.nunit@d8c07649098d/net40/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.collab-proxy@a5329f833fa8/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.collab-proxy@a5329f833fa8/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.collab-proxy@a5329f833fa8/Lib/Editor/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.IO.Hashing/System.IO.Hashing.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.collab-proxy@a5329f833fa8/Lib/Editor/unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/Volumes/Winterfell/Unity/6000.3.11f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>/Volumes/Winterfell/Tareas/RealidadVirtual/7CV2_VR1/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.XR.Hands.csproj">
+      <Project>{f4a8dc00-bd06-a797-9cf5-05e3a0660d1c}</Project>
+      <Name>Unity.XR.Hands</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.csproj">
+      <Project>{df01c069-3eb0-26fc-6f3c-69aeabfbbdc6}</Project>
+      <Name>Unity.XR.OpenXR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Editor.csproj">
+      <Project>{2e1e2654-cea5-bc4f-6cff-9272720396d6}</Project>
+      <Name>Unity.XR.OpenXR.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.csproj">
+      <Project>{8310b234-8eaa-f763-5632-ab99990658c1}</Project>
+      <Name>Unity.XR.OpenXR.Features.MetaQuestSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.Analytics.Editor.csproj">
+      <Project>{005629b8-15cb-3894-3bdb-e8ef9ef0e0e1}</Project>
+      <Name>Unity.XR.Hands.Analytics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.CoreUtils.csproj">
+      <Project>{ac9636e6-5fad-0727-3e79-0fdf73f3d58a}</Project>
+      <Name>Unity.XR.CoreUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.CoreUtils.Editor.csproj">
+      <Project>{7dab4619-0ee4-e498-28cd-e9af528e15e4}</Project>
+      <Name>Unity.XR.CoreUtils.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

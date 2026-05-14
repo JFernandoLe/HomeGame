@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "name": "MetaInput",
+    "maps": [
+        {
+            "name": "XRAR",
+            "id": "4725dab6-d5a7-4412-a376-38982703b033",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "1afd8b03-495c-4218-9a44-9918e72ebe7d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "35ce27d0-3c17-4185-8f00-98cec7df999b",
+                    "path": "<XRController>{LeftHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba182fa4-192f-4e19-9d5a-bc1c35f85495",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
