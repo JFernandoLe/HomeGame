@@ -1227,13 +1227,17 @@
       <Project>{7df31547-f20b-48bf-7f84-d0e37ad87e52}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Hands.csproj">
-      <Project>{f4a8dc00-bd06-a797-9cf5-05e3a0660d1c}</Project>
-      <Name>Unity.XR.Hands</Name>
+    <ProjectReference Include="Unity.Mobile.AndroidLogcat.Editor.csproj">
+      <Project>{06c2d882-fe49-e9bb-3bd2-5eb0f812e565}</Project>
+      <Name>Unity.Mobile.AndroidLogcat.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.Wit.Composer.csproj">
       <Project>{b9522132-09b3-071e-ed9c-761c5c73576e}</Project>
       <Name>Meta.Wit.Composer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.csproj">
+      <Project>{f4a8dc00-bd06-a797-9cf5-05e3a0660d1c}</Project>
+      <Name>Unity.XR.Hands</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
       <Project>{afad81e6-7aff-42c0-1190-03f4fc57f416}</Project>

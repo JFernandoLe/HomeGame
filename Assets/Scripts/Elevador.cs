@@ -10,8 +10,7 @@ public class Elevador : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (!other.CompareTag("Player")) return;
-
-        //  evitar spam y bug de "me quedo dentro"
+        
         if (Time.time < lastTeleportTime + cooldown) return;
 
         Player player = other.GetComponent<Player>();

@@ -404,8 +404,8 @@
     <Compile Include="Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Reflection/Member.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Collections/IProxyableNotifyCollectionChanged.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Collections/DebugDictionary.cs" />
-    <Compile Include="Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Events/IEventGraph.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Reflection/Optimization/StaticActionInvoker_0.cs" />
+    <Compile Include="Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Events/IEventGraph.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Dependencies/FullSerializer/fsDirectConverter.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Listeners/UIInterfaces/UnityOnSubmitMessageListener.cs" />
     <Compile Include="Library/PackageCache/com.unity.visualscripting@eb6004dcc707/Runtime/VisualScripting.Core/Events/IEventMachine.cs" />

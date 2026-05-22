@@ -231,7 +231,6 @@ MonoBehaviour:
   lights:
   - {fileID: 0}
   texto: {fileID: 6360016265423626905}
-  actionE: {fileID: 6760561223803750675, guid: 2922683f7dee449ee8344e64e8d01260, type: 3}
 --- !u!1 &6360016265423626905
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +296,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Presiona E para \nencender el Switch"
+  m_text: "Presiona A para \nencender el Switch"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}
   m_sharedMaterial: {fileID: 1260715531048141648, guid: 9a14a8a1184c5f14fbce3338ea4d7a35, type: 2}

@@ -52,6 +52,7 @@
     <Compile Include="Assets/Free Wood Door Pack/Script/Door.cs" />
     <Compile Include="Assets/Scripts/MouseLook.cs" />
     <Compile Include="Assets/DoorActions.cs" />
+    <Compile Include="Assets/PlayerFollowVR.cs" />
     <Compile Include="Assets/Sat Productions/E-01/Easy Door System/Scripts/EasyDoor.cs" />
     <Compile Include="Assets/Scripts/Enemy.cs" />
     <Compile Include="Assets/Scripts/Switch.cs" />
@@ -111,6 +112,7 @@
     <None Include="Library/PackageCache/com.unity.ide.rider@4504839d03f7/ValidationExceptions.json" />
     <None Include="Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/package.json" />
     <None Include="Library/PackageCache/com.unity.xr.openxr@ef0033a586bf/ValidationExceptions.json" />
+    <None Include="Library/PackageCache/com.unity.mobile.android-logcat@a8a404f035b3/package.json" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.haptics@ab22382f01e2/THIRD_PARTY_NOTICES.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Library/PackageCache/com.unity.visualscripting@eb6004dcc707/ValidationExceptions.json" />
@@ -123,6 +125,7 @@
     <None Include="Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64/link.xml" />
     <None Include="Library/PackageCache/com.meta.xr.sdk.haptics@ab22382f01e2/Plugins/libhaptics_sdk_version_windows.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Library/PackageCache/com.unity.mobile.android-logcat@a8a404f035b3/ValidationConfig.json" />
     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
     <None Include="Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64/package.json" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
@@ -1176,13 +1179,17 @@
       <Project>{7df31547-f20b-48bf-7f84-d0e37ad87e52}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.XR.Hands.csproj">
-      <Project>{f4a8dc00-bd06-a797-9cf5-05e3a0660d1c}</Project>
-      <Name>Unity.XR.Hands</Name>
+    <ProjectReference Include="Unity.Mobile.AndroidLogcat.Editor.csproj">
+      <Project>{06c2d882-fe49-e9bb-3bd2-5eb0f812e565}</Project>
+      <Name>Unity.Mobile.AndroidLogcat.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.Wit.Composer.csproj">
       <Project>{b9522132-09b3-071e-ed9c-761c5c73576e}</Project>
       <Name>Meta.Wit.Composer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Hands.csproj">
+      <Project>{f4a8dc00-bd06-a797-9cf5-05e3a0660d1c}</Project>
+      <Name>Unity.XR.Hands</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
       <Project>{afad81e6-7aff-42c0-1190-03f4fc57f416}</Project>
